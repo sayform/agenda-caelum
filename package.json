@@ -1,0 +1,22 @@
+{
+  "name": "agenda-master",
+  "version": "1.0.0",
+  "description": "projeto do curso da caelum",
+  "main": "index.js",
+  "scripts": {
+    "front": "lite-server",
+    "back": "json-server --watch db.json --port 8000"
+  },
+  "keywords": [
+    "js",
+    "node",
+    "fe",
+    "be"
+  ],
+  "author": "Sammy",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.12.1",
+    "lite-server": "^2.3.0"
+  }
+}

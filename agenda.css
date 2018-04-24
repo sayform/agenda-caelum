@@ -1,0 +1,61 @@
+body {
+  padding: 3em;
+}
+
+table {
+  width: 100%;
+}
+
+hr {
+  margin: 2em 0;
+}
+
+/* mensagem ao lado de cada campo - oculta */
+.pure-form input+span {
+  display: none;
+}
+
+/* classe de erro para os campos */
+.pure-form input.error,
+.pure-form input.error:focus {
+  border-color: #e60000;
+  background: #ffe6e6;
+}
+
+/* truque - exibir a mensagem ao lado 
+quando o campo tiver a classe error */
+.pure-form input.error+span {
+  display: inline-block;  
+}
+
+.error-server {
+  box-sizing: border-box;
+  margin-left: 11em;
+  background: #ffe6e6;
+  display: inline-block;
+  padding: 1em 0.5em;
+  border: 1px solid #e60000;
+  border-radius: 5px;
+  color: #e60000;
+}
+
+.success-server {
+  box-sizing: border-box;
+  margin-left: 11em;
+  background: #eeffe6;
+  display: inline-block;
+  padding: 1em 0.5em;
+  border: 1px solid #168604;
+  border-radius: 5px;
+  color: #168604;
+}
+
+.msg-server {
+  display: none;
+}
+
+.close-msg {
+  margin-right: 0.6em;
+  margin-left: 0.4em;
+  cursor: pointer;
+}
